@@ -1,12 +1,92 @@
-# React + Vite
+# 🩺 WellDoc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Overview
 
-Currently, two official plugins are available:
+**WellDoc** is an **AI-driven Risk Prediction Engine** that forecasts whether a chronic care patient is at risk of deterioration in the next 90 days.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Chronic conditions such as **diabetes, obesity, and heart failure** require continuous monitoring and proactive care. Despite access to vitals, labs, and adherence data, predicting patient deterioration remains a challenge.  
 
-## Expanding the ESLint configuration
+WellDoc empowers clinicians with **explainable, actionable, and reliable AI predictions** to intervene earlier, improve health outcomes, and reduce hospitalization risks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **AI Risk Prediction**  
+  Forecasts patient deterioration risk using vitals, lab results, medication adherence, and lifestyle logs.
+
+- **Explainable AI (XAI)**  
+  Uses SHAP/LIME to explain *why* a patient is at high risk in a clinician-friendly manner.
+
+- **Actionable Dashboards**  
+  Risk scores, graphs, and factor contributions presented in a clear and usable interface.
+
+- **React + Vite Frontend**  
+  Modern, fast, and minimal setup with Hot Module Replacement (HMR).
+
+- **Custom Uploads**  
+  - 📑 [PowerPoint](#)  
+  - 🎥 [Watch Demo Video](#)  
+  
+
+---
+
+## 📊 Problem Statement
+
+Chronic conditions require long-term monitoring, yet clinicians struggle to predict when patients may deteriorate.  
+By leveraging **AI models** trained on patient health data, WellDoc provides:  
+
+- Early warnings for at-risk patients  
+- Transparency in predictions through explainability  
+- Decision support tools to improve proactive care  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/WellDoc.git
+cd WellDoc
+
+Install dependencies:
+npm install
+
+Run Development Server
+npm run dev
+
+Visit: http://localhost:5173
+
+Build for Production
+npm run build
+npm run preview
+```
+Tech Stack
+
+Frontend: React + Vite
+
+Backend (AI models): Sklearn,numpy, pandas, matplotlib
+
+Explainability: SHAP / LIME
+
+Visualization: Chart.js / Recharts
+
+Deployment: Vercel / Netlify (Frontend), Flask/FastAPI (Backend)
+
+Project Structure
+```
+WellDoc/
+│── src/
+│   ├── components/    # UI components (charts, tables, alerts)
+│   ├── pages/         # Application pages (Dashboard, Patient Profile, etc.)
+│   ├── services/      # API calls to backend ML models
+│   └── assets/        # Icons, images, static assets
+│
+│── public/            # Public static files
+│── package.json       # Dependencies & scripts
+│── vite.config.js     # Vite configuration
+│── README.md          # Project documentation
+```
