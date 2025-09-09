@@ -25,8 +25,9 @@ WellDoc empowers clinicians with **explainable, actionable, and reliable AI pred
   Modern, fast, and minimal setup with Hot Module Replacement (HMR).
 
 - **Custom Uploads**  
-  - 📑 [PowerPoint](#)  
-  - 🎥 [Watch Demo Video](#)  
+- 📑 [PowerPoint]([AI-Driven-Risk-Prediction-Transforming-Chronic-Care[1].pptx](https://github.com/user-attachments/files/22240464/AI-Driven-Risk-Prediction-Transforming-Chronic-Care.1.pptx)
+)  
+  - 🎥 [Watch Demo Video](https://drive.google.com/file/d/1a3AAXrh-Y3j1_9qbGqO09ASz3YUAqm9N/view?usp=sharing)  
   
 
 ---
